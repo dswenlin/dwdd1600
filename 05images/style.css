@@ -1,0 +1,73 @@
+body {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    background-color: #e8f1f2;
+}
+
+/* header stuff here */ 
+header {
+    background-color: #CFE6F0;
+    padding: 1rem 15px;
+}
+header span {
+    color:#13293d;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */ 
+nav { 
+    background-color: #DCECF1;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0A4769;
+    font-weight: 700;
+}
+
+/* main stuff here */ 
+main {
+    padding: 20px;
+}
+
+main h1 {
+    margin-top: 0; /* Removes extra space */
+    color: #0A4769;
+}
+
+main h2 {
+    color: #1077AA;
+    margin-bottom: rem;
+}
+main p {
+    margin: 0;
+    color: #333;
+    background-color: #82C5E9;
+    padding: 0.5rem;
+}
+main ol {
+    padding: 0.5rem 30px;
+    background-color: #82C5E9;
+}
+
+/* footer */
+footer {
+    background-color: #CFE6F0;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #333;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
