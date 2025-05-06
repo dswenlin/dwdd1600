@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Devin Swenlin">
+    <meta name="description" content="Who is Daniel Ceasar?">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="hero.js" defer></script>
+<link rel="icon" href="favicon.ico">
+    <title>Daniel Ceasar</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Daniel Caesar</span>
+    </header>
+
+    <!-- start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Daniel Caesar</a></li>
+            <li><a href="albums.html">Albums</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="videos.html">Vidoes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+        </ul>
+    </nav>
+    <!-- start the main content-->
+    <main>
+        <div class="carousel">
+            <img src="images/hero2.jpg" alt="Performance 2">
+            <img src="images/hero3.jpg" alt="Performance 3">
+            <img src="images/hero4.jpg" alt="Performance 3">
+            <img src="images/hero5.jpg" alt="Performance 3">
+            <!-- Add more images as needed -->
+        </div>
+
+        <h1>Store</h1>
+
+        <figure>
+            <img src="images/freudiancd1.jpg" alt="freudiancd1"
+            width="300">
+            <img src="images/freudiancd2.jpg" alt="freudiancd2"
+            width="585">
+            <h3>Freudian CD</h3>
+        </figure>
+
+        <figure>
+            <img src="images/FREUDIANVINYL.webp" alt="freudianvinyl1"
+            width="300">
+            <img src="images/FREUDIANVINYL2.webp" alt="FREUDIANVINYL2"
+            width="300">
+            <h3>Freudian Vinyl</h3>
+        </figure>
+
+        <figure>
+            <img src="images/CASESTUDY01CD1.webp" alt="CASESTUDY01CD1"
+            width="300">
+            <img src="images/CASESTUDY01CD2.webp" alt="CASESTUDY01CD2"
+            width="300">
+            <h3>Case Study 01 CD</h3>
+        </figure>
+
+        <figure>
+            <img src="images/casestudyvinyl1.jpg" alt="casestudyvinyl1"
+            width="410">
+            <img src="images/casestudyvinyl2.jpg" alt="casestudyvinyl2"
+            width="300">
+            <img src="images/casestudyvinyl3.jpg" alt="casestudyvinyl3"
+            width="300">
+            <h3>Case Study 01 Vinyl</h3>
+        </figure>
+
+        <figure>
+            <img src="images/NEVERENOUGHCD1.webp" alt="NEVERENOUGHCD1"
+            width="300">
+            <img src="images/NEVERENOUGHCD2.webp" alt="NEVERENOUGHCD2"
+            width="325">
+            <img src="images/NEVERENOUGHCD3.webp" alt="NEVERENOUGHCD3"
+            width="300">
+            <h3>NEVER ENOUGH CD</h3>
+        </figure>
+
+        <figure>
+            <img src="images/NEVERENOUGHVINYL1.webp" alt="NEVERENOUGHVINYL1"
+            width="300">
+            <img src="images/NEVERENOUGHVINYL2.webp" alt="NEVERENOUGHVINYL2"
+            width="325">
+            <img src="images/NEVERENOUGHVINYL3.webp" alt="NEVERENOUGHVINYL3"
+            width="300">
+            <h3>NEVER ENOUGH Vinyl</h3>
+        </figure>
+
+        <h2>Checkout</h2>
+        <form method="get" class="myForm" action="thanks.html">
+
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required placeholder="John">
+            </label>
+            <label>Last Name*<input type="text" name="fname" required placeholder="Smith">
+            </label><br>
+            <label>Phone Number*<input type="tel" name="fname" required placeholder="987-555-1234">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+                <textarea name="comments">123 Street, City, St</textarea>
+            </fieldset>
+
+            <fieldset>
+            <legend>Product Selection</legend>
+                <label><input type="checkbox" name="Fcd" value="chosen"> Freudian CD ($12.99)</label><br>
+                <label><input type="checkbox" name="Fvinyl" value="chosen"> Freudian Vinyl ($34.99)</label><br>
+                <label><input type="checkbox" name="CScd" value="chosen"> Case Study 01 CD ($12.99)</label><br>
+                <label><input type="checkbox" name="CSvinyl" value="chosen"> Case Study 01 Vinyl ($34.99)</label><br>
+                <label><input type="checkbox" name="NEcd" value="chosen"> NEVER ENOUGH CD ($12.99)</label><br>
+                <label><input type="checkbox" name="NEvinyl" value="chosen"> NEVER ENOUGH Vinyl ($34.99)</label><br>
+        </fieldset>
+
+        <label> Comments <br>
+            <textarea name="comments">Please add any special instructions</textarea><br>
+        </label>
+
+        <input type="submit" value="Place Order">
+        </form>
+    </main>
+    <!-- start the page footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Devin Swenlin &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
